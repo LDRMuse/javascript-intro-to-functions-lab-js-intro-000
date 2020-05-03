@@ -26,7 +26,15 @@ function logShout(string) {
   console.log('HELLO')
 }
 
-
+function sayHiToGrandma(string){
+  if (string === string.toLowerCase()) {
+    return 'I can\'t hear you!'
+  } else if (string === string.toUpperCase()) {
+    return 'YES INDEED'
+  } else if (string === string.'I love you, Grandma.') {
+    return 'I love you, too.'
+  }
+}
 /*describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
