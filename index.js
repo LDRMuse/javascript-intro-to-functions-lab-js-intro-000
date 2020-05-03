@@ -21,8 +21,7 @@ function logShout(string) {
     logShout('hello')
 
     expect(spy).toHaveBeenCalledWith('HELLO')
-    console.log.toUpperCase(spy)
+    console.log.expect(spy)
 
-    console.log.restore()
 
 }
