@@ -34,7 +34,7 @@ lowercase.toLowerCase() === lowercase
 
 var mixedCase = 'YES INDEED!'
 mixedCase.toLowerCase() === mixedCase // false
- 
+
 mixedCase.toUpperCase() === mixedCase // false
 }
 
@@ -51,4 +51,3 @@ mixedCase.toUpperCase() === mixedCase // false
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })*/
-
