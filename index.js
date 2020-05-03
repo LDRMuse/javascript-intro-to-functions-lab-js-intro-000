@@ -14,11 +14,5 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  const spy = expect.spyOn(console, 'log').andCallThrough()
-
-  logShout('hello')
-
-  expect(spy).toHaveBeenCalledWith('HELLO')
-
-  console.log.restore()
+  console.log()
 }
