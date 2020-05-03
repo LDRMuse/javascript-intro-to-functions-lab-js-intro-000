@@ -23,6 +23,6 @@ function logShout(string) {
     expect(spy).toHaveBeenCalledWith('HELLO')
     console.log(spy)
 
-    console.log.restore(expect)
+    console.log.restore(spy)
 
 }
