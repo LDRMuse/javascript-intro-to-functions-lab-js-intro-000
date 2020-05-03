@@ -21,7 +21,8 @@ function logShout(string) {
     logShout('hello')
 
     expect(spy).toHaveBeenCalledWith('HELLO')
-
-    console.log.restore()
     console.log(spy)
+
+    console.log.restore(expect)
+    
 }
