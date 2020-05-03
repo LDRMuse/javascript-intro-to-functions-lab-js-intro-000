@@ -24,5 +24,5 @@ function logShout(string) {
     console.log(spy)
 
     console.log.restore(expect)
-    
+
 }
