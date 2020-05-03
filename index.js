@@ -27,14 +27,14 @@ function logShout(string) {
 }
 
 function sayHiToGrandma(string) {
-var uppercase = 'hello'
-uppercase.toUpperCase() === uppercase
-var lowercase = 'hello'
-lowercase.toLowerCase() === lowercase
- return string.toLowerCase()
- return string.toUpperCase()
+  if (string === string.toLowerCase()) {
+    return "I can't hear you!";
 }
-
+else if (string === string.toUpperCase()) {
+    return "YES INDEED!";
+} else if ('I love you, Grandma.') {
+  return 'I love you, too.'
+}
 /*describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
