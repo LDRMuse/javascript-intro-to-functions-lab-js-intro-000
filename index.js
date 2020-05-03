@@ -27,12 +27,11 @@ function logShout(string) {
 }
 
 function sayHiToGrandma(string) {
-  var uppercase = 'HELLO'
+var uppercase = 'HELLO';
 uppercase.toUpperCase() === uppercase
-var lowercase = 'hello'
+var lowercase = 'hello';
 lowercase.toLowerCase() === lowercase
-
-var mixedCase = 'YES INDEED!'
+var mixedCase = 'YES INDEED!';
 mixedCase.toLowerCase() === mixedCase // false
 
 mixedCase.toUpperCase() === mixedCase // false
