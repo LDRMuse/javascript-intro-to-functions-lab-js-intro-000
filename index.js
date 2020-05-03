@@ -17,6 +17,6 @@ function logShout(string) {
 /*  console.log(spy)
     const spy = expect.spyOn(console, 'log').andCallThrough()*/
 
-    console.log(spy)
+    console.log.toUpperCase()
 
 }
